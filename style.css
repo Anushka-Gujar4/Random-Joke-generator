@@ -1,0 +1,36 @@
+body{
+    background-color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    margin-top: 100px;
+    height: 400px;
+    width: 600px;
+    background-color: wheat;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#joke-button{
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 5px;
+    color: aqua;
+    size: 2px;
+}
+
+#joke-button:hover{
+    background-color: rgb(249, 232, 6);
+    border-color: blue;
+    border-width: 5px;
+
+}
+
+#setup{
+    margin-top: 40px;
+    font-weight: bold;
+ }
